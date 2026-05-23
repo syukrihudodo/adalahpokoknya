@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun!</title>
+    <style>
+        /* Mengatur tampilan dasar halaman */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        /* Kartu ucapan di tengah layar */
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        /* Dekorasi emoji/kue */
+        .cake {
+            font-size: 60px;
+            margin-bottom: 10px;
+            animation: bounce 2s infinite;
+        }
+
+        h1 {
+            color: #ff6b81;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Tombol interaktif */
+        .btn {
+            background-color: #ff6b81;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #ff4757;
+        }
+
+        /* Animasi sederhana untuk kue */
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="cake">🎂✨</div>
+        <h1>Happy Birthday Sayangkuuuu!</h1> 
+        
+        <p>Selamat bertambah usia! Semoga di tahun yang baru ini kamu selalu diberikan kesehatan, kebahagiaan, dan semua impianmu bisa segera terwujud. Terima kasih sudah menjadi orang yang luar biasa!</p>
+        
+        <button class="btn" onclick="alert('Make a wish! 🎈🎉')">Tiup Lilin & Taruh Harapan</button>
+    </div>
+
+</body>
+</html>
